@@ -5,6 +5,22 @@ body,html{
   height: 100%;
   margin: 0;
 }
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #23232e;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    rgba(0, 233, 159, 1) 0%,
+    rgba(192, 99, 213, 1) 40%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 50px;
+}
 .bgimg{ 
   background-image:url("bg4img.jpg");
   height: 47%;
