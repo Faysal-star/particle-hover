@@ -35,6 +35,7 @@ body,html{
     animation-name: hula1;
     animation-duration: 3s;
     
+    
 }
 .t2{
     right: 35%;
@@ -42,6 +43,7 @@ body,html{
     animation-name: hula2;
     animation-duration: 3s;
     position: absolute;
+    
 }
 @keyframes hula1{
     0%   { padding-left: 0%; }
