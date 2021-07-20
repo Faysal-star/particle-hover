@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  margin: 0;
+}
+.bgimg{ 
+  background-image:url("bg4img.jpg");
+  height: 47%;
+  background-position: center;
+  background-size: cover;
+  
+}
+.bg2img{ 
+    background-image:url("bg2img.png");
+    height: 47%;
+    background-position: center;
+    background-size: cover;
+}
+.txt{
+    position: relative;
+    background-color: #576574;
+    color: white;
+    transition: .3s;
+
+}
+.txt:hover{
+    background-color: white;
+    color: #576574 ;
+}
+.t1{
+    padding-left: 41%;
+    font-size: 40px;
+    animation-name: hula1;
+    animation-duration: 3s;
+    
+}
+.t2{
+    right: 35%;
+    font-size: 40px;
+    animation-name: hula2;
+    animation-duration: 3s;
+    position: absolute;
+}
+@keyframes hula1{
+    0%   { padding-left: 0%; }
+   
+}
+@keyframes hula2{
+    0%   { right: 0%; }
+
+}
